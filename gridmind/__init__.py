@@ -7,7 +7,7 @@ from .core.grid import GridManager
 from .core.optimizer import GridOptimizer
 from .core.predictor import LoadPredictor
 from .core.anomaly import AnomalyDetector
-from .api.server import app as create_app
+from .api.server import create_app
 
 __all__ = [
     "GridManager",
